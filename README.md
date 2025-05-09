@@ -1,40 +1,35 @@
-# Zay Shop – JSP/Servlet E-Commerce Project
+# Student Manager – Java Swing Application
 
-This project is developed as part of an examination at FPT Polytechnic. It is an e-commerce web application named "Zay Shop," built using Java EE technologies.
+This project was developed as part of an examination for the Java class at FPT Polytechnic. It is a desktop application for managing student information, built using Java Swing.
 
 ## Features
 
-- **User Authentication**: Registration and login functionalities for users.
-- **Product Management**: Display and manage products with categories.
-- **Shopping Cart**: Add, update, and remove items from the cart.
-- **Order Processing**: Place orders and view order history.
-- **Admin Panel**: Administrative interface for managing products, categories, and orders.
+- **Student Management**: Add, edit, delete, and view student records.
+- **Course Management**: Manage course details and enrollments.
+- **User Authentication**: Secure login system for administrators.
+- **Reporting**: Generate reports on student performance and course statistics.
 
 ## Technologies Used
 
-- **Backend**: Java, JSP, Servlets
-- **Frontend**: HTML, CSS, JavaScript, Less, SCSS
-- **Build Tool**: Maven
-- **IDE**: Eclipse
+- **Programming Language**: Java
+- **GUI Framework**: Swing
+- **Build Tool**: Apache Ant
+- **IDE**: NetBeans
 
 ## Project Structure
 
 ```
-jsp-servlet_zay-shop/
+java-swing_students-manager/
+├── build/
+├── help/
+├── logos/
+├── nbproject/
+├── opt/
 ├── src/
-│   └── main/
-│       ├── java/
-│       │   └── [Java source files]
-│       └── webapp/
-│           ├── WEB-INF/
-│           │   └── web.xml
-│           └── [JSP files, static resources]
-├── .settings/
-├── target/
-├── test-output/
-├── .classpath
-├── .project
-├── pom.xml
+│   └── com/
+│       └── edusys/
+├── build.xml
+├── manifest.mf
 └── README.md
 ```
 
@@ -42,21 +37,19 @@ jsp-servlet_zay-shop/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/haitt2381/jsp-servlet_zay-shop.git
+   git clone https://github.com/haitt2381/java-swing_students-manager.git
    ```
 
-2. **Import the project into Eclipse**:
-   - Open Eclipse.
-   - Go to `File` > `Import` > `Existing Maven Projects`.
-   - Select the cloned repository folder.
+2. **Open the project in NetBeans**:
+   - Launch NetBeans.
+   - Go to `File` > `Open Project`.
+   - Navigate to the cloned repository folder and open it.
 
-3. **Build the project**:
-   - Right-click on the project in Eclipse.
-   - Select `Run As` > `Maven Install`.
+3. **Build and Run the project**:
+   - Right-click on the project in the Projects pane.
+   - Select `Build` to compile the project.
+   - Select `Run` to start the application.
 
-4. **Deploy to a server**:
-   - Configure a Tomcat server in Eclipse.
-   - Deploy the project to the server.
+## License
 
-5. **Access the application**:
-   - Open a web browser and navigate to `http://localhost:8080/jsp-servlet_zay-shop/`.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
